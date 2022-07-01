@@ -1,0 +1,172 @@
+.sign-in {
+    height: 80vh;
+}
+
+.signin-image img {
+    filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.05));
+}
+
+.sign-in-div {
+    display: flex;
+    align-items: baseline;
+}
+
+.signin-form,
+.signin-image {
+    width: 50%;
+    overflow: hidden;
+}
+
+.form-title {
+    margin-bottom: 33px;
+    font-weight: bold;
+}
+
+figure {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.form-submit {
+    display: inline-block;
+    background: #6dabe4;
+    color: #fff;
+    border-bottom: none;
+    width: auto;
+    padding: 15px 39px;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background: #4292dc;
+}
+
+#signin {
+    margin-top: 1rem;
+}
+
+.sign-in-image-link {
+    font-size: 1rem;
+    text-decoration: underline;
+    color: #222;
+    display: block;
+    text-align: center;
+}
+
+.signin-content {
+    padding-top: 67px;
+    padding-bottom: 87px;
+}
+
+.signin-form {
+    margin-right: 90px;
+    margin-left: 80px;
+}
+
+.signin-image {
+    margin-left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width:1024px) and (max-width: 1279px) {
+    .sign-in .container {
+        margin-top: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .sign-in .container {
+        margin-top: 1rem !important;
+    }
+
+    .signin-content {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    input {
+        padding: 6px 38px;
+        font-size: 1rem;
+    }
+
+    .material-icons-name {
+        font-size: 20px;
+    }
+
+    .signin-image {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+        order: 2;
+    }
+
+    .signin-image img {
+        width: 70%;
+    }
+
+    .signin-form,
+    .signin-image {
+        width: auto;
+    }
+
+    .form-button {
+        text-align: center;
+    }
+
+    .signin-form {
+        order: 1;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0 30px;
+    }
+
+    .form-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sign-in .container {
+        margin-top: 1rem !important;
+    }
+
+    .signin-content {
+        padding-top: 1.5rem;
+        padding-bottom: 1.75rem;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    .material-icons-name {
+        font-size: 18px;
+    }
+
+    .form-title {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #signin {
+        margin-top: 0.5rem;
+    }
+
+    .signin-image img {
+        width: 50%;
+    }
+
+    .sign-in-div span {
+        font-size: 14px;
+    }
+
+    .sign-in-div a {
+        font-size: 16px;
+    }
+}

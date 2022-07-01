@@ -1,0 +1,165 @@
+.signup {
+    height: 75vh;
+    display: grid;
+    place-items: center;
+}
+
+.signup .container {
+    width: 900px !important;
+}
+
+.signup-content {
+    padding: 1rem 0;
+}
+
+.signup-form,
+.signup-image {
+    width: 50%;
+    overflow: hidden;
+}
+
+.form-title {
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.signup-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 3rem;
+}
+
+figure {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.form-submit {
+    display: inline-block;
+    background: #6dabe4;
+    color: #fff;
+    border-bottom: none;
+    width: auto;
+    padding: 0.75rem 2rem;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background: #4292dc;
+}
+
+.signup-image-link {
+    font-size: 14px;
+    color: #222;
+    display: block;
+    text-align: center;
+}
+
+.term-service {
+    font-size: 13px;
+    color: #222;
+}
+
+.signup-form {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-left: 1rem;
+}
+
+.register-form {
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+}
+
+.form-group:nth-child(6) {
+    margin-bottom: 0.5rem !important;
+}
+
+.form-group:last-child {
+    margin-bottom: 0.5rem !important;
+}
+
+.signup-div {
+    display: flex;
+    align-items: baseline;
+}
+
+.signup-div span {
+    font-size: 14px;
+    margin-right: 0.25rem;
+}
+
+.signup-div a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1023px) {
+    .signup .container {
+        width: 700px !important;
+        margin-top: 5rem !important;
+    }
+
+    .signup-form {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 0;
+    }
+
+    .signup-image {
+        margin: 0 1rem;
+    }
+
+    .form-title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .signup .container {
+        width: 350px !important;
+        margin-top: 1rem !important;
+    }
+
+    .signup-content {
+        padding: 0.5rem 0;
+        flex-direction: column;
+    }
+
+    .signup-form {
+        width: 90%;
+    }
+
+    .signup-image {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .form-title {
+        font-size: 1.5rem;
+    }
+
+    .signup-image figure {
+        margin-bottom: 1rem;
+        display: none;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .signup-div a {
+        margin-bottom: 0.75rem;
+    }
+}
